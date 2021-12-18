@@ -910,7 +910,7 @@ class AdminController extends BaseController
             'totalPesan' => $arrayDibaca + $arrarBelumDibaca
         ];
 
-        return view('admin/pesan_pengguna/pesanPenggunaView', $data);
+        return view('admin/pesan_pengguna/pesanpenggunaview', $data);
     }
 
     public function getPesanId(){
@@ -992,7 +992,7 @@ class AdminController extends BaseController
             'bankData' => $dataBank
         ];
 
-        return view('admin/pesanan_view/pesananEditview', $data);
+        return view('admin/pesanan_view/pesananeditview', $data);
     }
 
     public function ubahPesanan(){

@@ -57,7 +57,7 @@
     <?php echo view('/theme/header')?>
     <div class="row p-0 m-0" style="height: 100vh">
         <div class="col-12 col-sm-4 col-md-3 col-lg-2 p-0 m-0" id="sidebar">
-            <?php echo view('/theme/Sidemenu')?>
+            <?php echo view('/theme/sidemenu')?>
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 p-3 content-bg content-container" id='content'>
             <div class="container-fluid p-4 m-0 item-bg">

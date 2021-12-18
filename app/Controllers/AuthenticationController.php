@@ -30,7 +30,7 @@ class AuthenticationController extends BaseController
         ];
 
 
-        return view('authentication/registrationPage', $data);
+        return view('authentication/registrationpage', $data);
     }
 
     public function saveUserToDatabase(){
@@ -75,7 +75,7 @@ class AuthenticationController extends BaseController
             'title' => 'Login | Maestro Putra Timur'
         ];
 
-        return view('authentication/loginPage', $data);
+        return view('authentication/loginpage', $data);
 
     }
 
@@ -129,7 +129,7 @@ class AuthenticationController extends BaseController
             'title' => 'Lupa Pasword | Maestro Putra Timur'
         ];
 
-        return view('authentication/lupaPasswordPage', $data);
+        return view('authentication/lupapasswordpage', $data);
 
     }
 
@@ -218,7 +218,7 @@ class AuthenticationController extends BaseController
         ];
 
         if($time > $timeNow){
-        return view('authentication/formLupaPassword', $data);
+        return view('authentication/formlupapassword', $data);
             
         }
 

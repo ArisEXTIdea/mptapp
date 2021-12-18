@@ -58,7 +58,7 @@ class FrontPageController extends BaseController
             'dataKategori' => $dataKategori,
         ];
 
-        return view('frontpage/Home', $data);
+        return view('frontpage/home', $data);
     }
 
     // Semua produk module
@@ -96,7 +96,7 @@ class FrontPageController extends BaseController
         
 
        
-        return view('frontpage/allproductSearch', $data);
+        return view('frontpage/allproductsearch', $data);
     }
 
     public function filterSearch(){
@@ -123,7 +123,7 @@ class FrontPageController extends BaseController
             'dataProduk' => $dataPerumahan,
         ];
         
-        return view('frontpage/allproductSearch', $data);
+        return view('frontpage/allproductsearch', $data);
     }
 
     public function lihatDetailRumah(){
@@ -142,7 +142,7 @@ class FrontPageController extends BaseController
             'data' => $dataRumah[0]
         ];
 
-        return view('frontpage/detailProduk', $data);
+        return view('frontpage/detailproduk', $data);
 
     }
 
@@ -191,7 +191,7 @@ class FrontPageController extends BaseController
         ];
 
         if(session('login')){
-            return view('frontpage/buatPesanan', $data);
+            return view('frontpage/buatpesanan', $data);
         } else {
             $session->setFlashdata('success', 'Harap masuk dulu ke akun anda sebelum membuat pesanan...');
             return redirect()->to('/login');
@@ -233,7 +233,7 @@ class FrontPageController extends BaseController
         ];
 
 
-        return view('frontpage/pesananBerhasil', $data);
+        return view('frontpage/pesananberhasil', $data);
 
     }
 
