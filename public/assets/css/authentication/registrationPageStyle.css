@@ -1,0 +1,47 @@
+/* General */
+
+label {
+  font-weight: 600;
+}
+
+.reg-container .row {
+  height: 100vh;
+}
+
+.reg-container .reg-form form div a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+.reg-container .reg-form form div a:hover {
+  color: #30336b;
+}
+
+.reg-container .reg-form .reg-brand {
+  line-height: 5px;
+}
+
+.reg-container .reg-form form .form-control label {
+  font-weight: bold;
+}
+
+.reg-container .reg-form form .form-group button {
+  width: 100%;
+  background-color: #30336b;
+}
+
+.reg-container .reg-form form .form-check label {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.reg-illustration {
+  background-image: url("../../images/systemimages/illustrationauth.jpg");
+  background-size: cover;
+}
+
+.reg-container .reg-illustration .reg-illustration-text {
+  background-color: #ffffff95;
+  color: #000;
+  border-radius: 10px;
+}

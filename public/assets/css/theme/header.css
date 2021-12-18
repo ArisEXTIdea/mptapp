@@ -1,0 +1,44 @@
+h3 {
+    font-weight: 700;
+}
+
+.header-container {
+    background-color: #3D3D3D;
+}
+
+.header-container .header-brand{
+    background-color: #3D3D3D;
+    color: #fff;
+}
+
+.header-container .header-control {
+    background-color: #30336B;
+    color: #fff;
+}
+
+.profile-image {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-hamburger span:hover {
+    cursor: pointer;
+}
+
+.header-profile-name{
+    font-weight: bold;
+}
+
+
+.header-container .header-profile {
+    width: 300px;
+    background-color: #30336B;
+    position: absolute;
+    color: #fff;
+    right: 0;
+    top: 0;
+}
+
+.header-container .header-profile .header-profile-control {
+    background-color: #C4C4C4;
+}

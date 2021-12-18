@@ -1,0 +1,24 @@
+.mymodal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000cc;
+    height: 100vh;
+    overflow: auto;
+}
+
+.mymodal-container .mymodal{
+    background-color: #fff;
+    max-width: 95%;
+}
+
+.mymodal-container .mymodal .mymodal-header{
+    min-width: 350px;
+    color: #fff;
+
+}
+
+.mymodal-container .mymodal .mymodal-header a span {
+    color: #fff;
+}

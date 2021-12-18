@@ -1,0 +1,22 @@
+.kalkualator-kpr-item{
+    height: 150px;
+    width: 150px;
+}
+
+.kalkualator-kpr-item:hover{
+    border: 2px solid #30336B;
+}
+
+.kalkualator-kpr-container:hover{
+    /* background-color: red; */
+    border: 2px solid #30336B;
+    box-sizing: border-box;
+}
+
+.kalkualator-kpr-item img{
+    width: 130px;
+}
+
+body{
+    background-color: #DFE5F8 !important;
+}

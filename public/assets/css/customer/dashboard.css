@@ -1,0 +1,11 @@
+.product-container {
+    background-color: #DFE5F8;
+}
+
+.myprofile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}

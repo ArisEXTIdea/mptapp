@@ -1,0 +1,17 @@
+.sidemenu-container ul {
+    line-height: 50px;
+}
+
+.sidemenu-container ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+.sidemenu-container ul a li:hover{
+    border-right: 4px solid #30336B;
+}
+
+
+.sidemenu-container ul a li {
+    list-style-type: none;
+}

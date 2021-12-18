@@ -1,0 +1,13 @@
+.content-container{
+    height: 100vh !important;
+    overflow: auto;
+    /* scrollbar-width: none; */
+}
+
+/* body::-webkit-scrollbar{
+    display: none;
+}
+
+.main-c{
+    scrollbar-width: none;
+} */

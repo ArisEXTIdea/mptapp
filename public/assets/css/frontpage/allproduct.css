@@ -1,0 +1,31 @@
+.product-container {
+    background-color: #DFE5F8;
+}
+
+.product-container .product-search{
+    /* border: 1px solid red; */
+}
+
+.product-container .product-filter{
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+.product-container .product-display{
+    /* border: 1px solid red; */
+    min-height: 100vh;
+}
+
+.form-search{
+    min-width: 200px;
+}
+
+.product-item {
+    background-color: #fff;
+}
+
+.product-item .product-item-image{
+    width: 200px;
+    border: 1px solid red;
+}

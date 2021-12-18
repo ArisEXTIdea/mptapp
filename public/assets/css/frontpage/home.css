@@ -1,0 +1,40 @@
+.home-intro{
+    height: 100vh;
+}
+
+.home-container{
+    overflow: auto;
+}
+
+.home-intro .home-intro-introtext{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-intro .home-intro-introtext h1 {
+    color: #fff;
+    -webkit-text-stroke: #000 1px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.home-intro .home-intro-introtext p {
+    color: #fff;
+    font-weight: 500;
+    -webkit-text-stroke: #000 0.5px;
+}
+
+.home-intro .home-intro-introtext p div input {
+    width: 100px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+ul li {
+    word-break: break-all;
+}
